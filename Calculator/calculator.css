@@ -1,0 +1,11 @@
+.setsize {
+  width: 80%;
+  max-width: 300px;
+}
+.displayfield {
+  background: lightgrey;
+}
+.nopadding {
+  padding: 2px !important;
+  margin: 0px !important;
+}
