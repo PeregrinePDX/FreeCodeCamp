@@ -1,140 +1,141 @@
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="calculator.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
 </head>
+
 <body>
-  <div class="container setsize nopadding">
-    <div class="row displayfield">
-      <div class="col-xs-12">
-        <p id="disp9" class="text-right">
-        </p>
-        <p id="disp8" class="text-right">
-        </p>
-        <p id="disp7" class="text-right">
-        </p>
-        <p id="disp6" class="text-right">
-        </p>
-        <p id="disp5" class="text-right">
-        </p>
-        <p id="disp4" class="text-right">
-        </p>
-        <p id="disp3" class="text-right">
-        </p>
-        <p id="disp2" class="text-right">
-        </p>
-        <p id="disp1" class="text-right">
-        </p>
-        <p id="disp0" class="text-right">
-        </p>
-      </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-3 nopadding">
-          <button id="ac" class="btn btn-danger btn-block">
-          AC
-          </button>
+    <div class="container setsize nopadding">
+        <div class="row displayfield">
+            <div class="col-xs-12">
+                <p id="disp9" class="text-right">
+                </p>
+                <p id="disp8" class="text-right">
+                </p>
+                <p id="disp7" class="text-right">
+                </p>
+                <p id="disp6" class="text-right">
+                </p>
+                <p id="disp5" class="text-right">
+                </p>
+                <p id="disp4" class="text-right">
+                </p>
+                <p id="disp3" class="text-right">
+                </p>
+                <p id="disp2" class="text-right">
+                </p>
+                <p id="disp1" class="text-right">
+                </p>
+                <p id="disp0" class="text-right">
+                </p>
+            </div>
         </div>
-        <div class="col-xs-3 nopadding ">
-          <button id="ce" class="btn btn-danger btn-block">
-          CE
-          </button>
+        <div class="row">
+            <div class="col-xs-3 nopadding">
+                <button id="ac" class="btn btn-danger btn-block">
+                    AC
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding ">
+                <button id="ce" class="btn btn-danger btn-block">
+                    CE
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="percent" class="btn btn-primary btn-block">
+                    %
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="divide" class="btn btn-primary btn-block">
+                    /
+                </button>
+            </div>
         </div>
-        <div class="col-xs-3 nopadding">
-          <button id="percent" class="btn btn-primary btn-block">
-          %
-          </button>
+        <div class="row">
+            <div class="col-xs-3 nopadding">
+                <button id="7" class="btn btn-info btn-block">
+                    7
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="8" class="btn btn-info btn-block">
+                    8
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="9" class="btn btn-info btn-block">
+                    9
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="multiply" class="btn btn-primary btn-block">
+                    X
+                </button>
+            </div>
         </div>
-        <div class="col-xs-3 nopadding">
-          <button id="divide" class="btn btn-primary btn-block">
-            /
-          </button>
+        <div class="row">
+            <div class="col-xs-3 nopadding">
+                <button id="4" class="btn btn-info btn-block">
+                    4
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="5" class="btn btn-info btn-block">
+                    5
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="6" class="btn btn-info btn-block">
+                    6
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="minus" class="btn btn-primary btn-block">
+                    -
+                </button>
+            </div>
         </div>
-      </div>
-    <div class="row">
-      <div class="col-xs-3 nopadding">
-        <button id="7" class="btn btn-info btn-block">
-          7
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="8" class="btn btn-info btn-block">
-          8
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="9" class="btn btn-info btn-block">
-          9
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="multiply" class="btn btn-primary btn-block">
-          X
-        </button>
-      </div>
+        <div class="row">
+            <div class="col-xs-3 nopadding">
+                <button id="1" class="btn btn-info btn-block">
+                    1
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="2" class="btn btn-info btn-block">
+                    2
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="3" class="btn btn-info btn-block">
+                    3
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="plus" class="btn btn-primary btn-block">
+                    +
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3 nopadding">
+                <button id="0" class="btn btn-info btn-block">
+                    0
+                </button>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <button id="decimal" class="btn btn-info btn-block">
+                    .
+                </button>
+            </div>
+            <div class="col-xs-6 nopadding">
+                <button id="enter" class="btn btn-success btn-block">
+                    Enter
+                </button>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-xs-3 nopadding">
-        <button id="4" class="btn btn-info btn-block">
-          4
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="5" class="btn btn-info btn-block">
-          5
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="6" class="btn btn-info btn-block">
-          6
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="minus" class="btn btn-primary btn-block">
-          -
-        </button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-3 nopadding">
-        <button id="1" class="btn btn-info btn-block">
-          1
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="2" class="btn btn-info btn-block">
-          2
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="3" class="btn btn-info btn-block">
-          3
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="plus" class="btn btn-primary btn-block">
-          +
-        </button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-3 nopadding">
-        <button id="0" class="btn btn-info btn-block">
-          0
-        </button>
-      </div>
-      <div class="col-xs-3 nopadding">
-        <button id="decimal" class="btn btn-info btn-block">
-          .
-        </button>
-      </div>
-      <div class="col-xs-6 nopadding">
-        <button id="enter" class="btn btn-success btn-block">
-          Enter
-        </button>
-      </div>
-    </div>
-  </div>
-  <script src="calculator.js"></script>
+    <script src="calculator.js"></script>
 </body>
