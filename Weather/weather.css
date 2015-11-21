@@ -1,0 +1,41 @@
+#title {
+    text-align: center;
+}
+
+.weatherData {
+    min-height: 70%;
+}
+.databox {
+    background-color: aliceblue;
+    min-height: 20%;
+    min-width: 20%;
+    display: inline;
+    margin: 10px;
+    font-size: 2em;
+    padding: 20px;
+    box-shadow: 5px 5px 5px lightgrey;
+    opacity: 0.3;
+}
+
+.clearWeather {
+    height: 100%;
+    width = 100%;
+    background-image:
+        url("http://blogs.channel4.com/liam-dutton-on-weather/wp-content/uploads/sites/27/2012/03/sunshinesky_ukcountryside_g_wp1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    text-align: center;
+    padding: 30px;
+}
+
+.icon {
+    position: relative;
+    top: 15px;
+}
+
+.data {
+    opacity: 1  !important;
+}
