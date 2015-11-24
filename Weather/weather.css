@@ -17,13 +17,47 @@
     opacity: 0.3;
 }
 
-.clearWeather {
+
+.weatherBody {
     height: 100%;
-    width = 100%;
-    background-image:
-        url("http://blogs.channel4.com/liam-dutton-on-weather/wp-content/uploads/sites/27/2012/03/sunshinesky_ukcountryside_g_wp1.jpg");
+    width = 100%;  
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.clearWeather {
+    background-image:
+        url("assets/ESTTV0M8OG.jpg");
+}
+
+.extemeWeather {
+    background-image:
+        url("assets/montana-thunderstorm-615.jpg");
+}
+
+.atmosphereWeather {
+    background-image:
+        url("assets/H5C4IA419A.jpg");
+}
+
+.snowWeather {
+    background-image:
+        url("assets/O6NC7O3JE7.jpg");
+}
+
+.rainWeather {
+    background-image:
+        url("assets/E0A7D9FEC0.jpg");
+}
+
+.drizzleWeather {
+    background-image:
+        url("assets/HURPJAWUZC.jpg");
+}
+
+.thunderWeather {
+    background-image:
+        url("assets/Thunderstorms.jpg");
 }
 
 .row {

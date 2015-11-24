@@ -60,10 +60,20 @@ function degToDir(direction) {
 }
 
 function setBackground(code) {
-  if (code >= 800) {
+  if (code >= 900) {
+    $(".weatherBody").addClass("extemeWeather");
+  } else if (code >= 800) {
     $(".weatherBody").addClass("clearWeather");
-  } else {
-    $(".weatherBody").assClass("otherWeather");
+  } else if (code >= 700) {
+    $(".weatherBody").addClass("atmosphereWeather");
+  } else if (code >= 600) {
+    $(".weatherBody").addClass("snowWeather");
+  } else if (code >= 500) {
+    $(".weatherBody").addClass("rainWeather");
+  } else if (code >= 300) {
+    $(".weatherBody").addClass("drizzleWeather");
+  } else if (code >= 200) {
+    $(".weatherBody").addClass("thunderWeather");
   }
 }
 if (navigator.geolocation) {
