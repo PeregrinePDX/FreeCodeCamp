@@ -14,7 +14,6 @@
     font-size: 2em;
     padding: 20px;
     box-shadow: 5px 5px 5px lightgrey;
-    opacity: 0.3;
 }
 
 
@@ -70,6 +69,3 @@
     top: 15px;
 }
 
-.data {
-    opacity: 1  !important;
-}
